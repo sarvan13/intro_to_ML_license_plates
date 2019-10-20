@@ -149,7 +149,7 @@ def list_to_string(list):
     
     return plate
 
-def test_nn():
+def test():
     files = os.listdir(path+"pictures/")
     model = models.load_model('plate_seperator.h5')
 
@@ -174,8 +174,8 @@ def test_nn():
 
 
 #Main
-# X_dataset, Y_dataset = prepareData()
-# train(X_dataset, Y_dataset)
-test_nn()
+X_dataset, Y_dataset = prepareData()
+train(X_dataset, Y_dataset)
+
 
             
