@@ -19,7 +19,7 @@ In order to train the model, we must first generate random lisence plate images.
 ```
 python plate_generator.py
 ```
-This will generate 15 random lisence plates. I would suggest running this command a few times or changing the code in **plate_generator.py** to generate enough data to train the model. 
+This will generate 16 random lisence plates. I would suggest running this command a few times or changing the code in **plate_generator.py** to generate enough data to train the model. 
 
 After data has been generated train the model by running:
 ```
